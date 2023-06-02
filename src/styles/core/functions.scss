@@ -1,0 +1,6 @@
+//padding-top: rem(20);
+
+$defaultFontSize: 16;
+@function rem($pixels) {
+  @return ($pixels / $defaultFontSize * 1rem);
+}
