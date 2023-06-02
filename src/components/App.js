@@ -1,17 +1,12 @@
 import '../styles/App.scss';
-import Menu from "./Menu";
+import Header from './Header';
+
 // Ej img: import logoMenu from '../images/ico-menu.svg';
 
 function App() {
   return (
     <div className='body'>
-      <header className='header'>
-        {/* <NavLink to='/' >
-          L·C
-        </NavLink> */}
-        <p>L·C</p>
-        <Menu></Menu>
-      </header>
+      <Header></Header>
       <main>
         <section></section>
       </main>

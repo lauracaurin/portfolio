@@ -4,5 +4,9 @@
   align-items: center;
   padding: rem(20) rem(30);
   background-color: $primary;
-  color: $secundary;
+
+  &__logo {
+  color: $secondary;
+  text-decoration: none;
+  }
 }
